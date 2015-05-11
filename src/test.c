@@ -28,18 +28,24 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <assert.h>
+#include <openssl/ssl.h>
+#include <openssl/err.h>
 
 #include "vsslh.h"
 
 int
 main(int argc, char *argv[])
 {
+	SSL_CTX *ctx;
 
-	if (VSSLH_status()) {
+	if (VSSLH_status())
 		printf("VSSL status ok\n");
-		exit(0);
-	} else {
+	else {
 		printf("VSSL status NOT ok\n");
 		abort();
 	}
+
+	ctx = SSL_CTX_new(SSLv23_method());
+	assert(ctx != NULL);
 }
