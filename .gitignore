@@ -52,3 +52,8 @@ cscope.*out
 
 # NetBeans insists on this
 /nbproject/private/
+
+/libvarnish-sslhelper.7
+/libvarnish-sslhelper.pc
+/src/test
+
