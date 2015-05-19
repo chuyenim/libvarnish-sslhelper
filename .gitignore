@@ -1,0 +1,54 @@
+# Matches ALL Makefile and Makefile.in occurrences 
+Makefile
+Makefile.in
+
+# ...
+.deps/
+.libs/
+*.o
+*.lo
+*.la
+*~
+*.sw[op]
+*.trs
+
+
+# Various auto-tools artifacts
+/aclocal.m4
+/autom4te.cache/
+/compile
+/config.guess
+/config.h
+/config.h.in
+/config.h.in~
+/config.log
+/config.status
+/config.sub
+/configure
+/configure.lineno
+/depcomp
+/install-sh
+/libtool
+/ltmain.sh
+/m4/libtool.m4
+/m4/ltoptions.m4
+/m4/ltsugar.m4
+/m4/ltversion.m4
+/m4/lt~obsolete.m4
+/missing
+/stamp-h1
+/build-aux
+TAGS
+tags
+cscope.*out
+#
+/varnishapi-uninstalled.pc
+
+# Man-files and binaries
+/man/vsc2rst
+/man/*.1
+/man/*.3
+/man/*.7
+
+# NetBeans insists on this
+/nbproject/private/
