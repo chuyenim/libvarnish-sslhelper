@@ -1,6 +1,6 @@
 AC_PREREQ(2.59)
 AC_COPYRIGHT([Copyright (c) 2015 Varnish Software AS])
-AC_INIT([libvarnish-sslhelper], [trunk])
+AC_INIT([libvarnish-sslhelper], [1.0.0-beta1])
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR(src/vsslh.c)
 AM_CONFIG_HEADER(config.h)
