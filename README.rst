@@ -26,11 +26,11 @@ EXPORTED FUNCTIONS
   Returns 1 if the initialization code has been run correctly. Useful
   for asserts in the target module.
 
-HISTORY
+LICENSE
 =======
 
-This manual page was written by Martin Blix Grydeland
-<martin@varnish-software.com>
+See the LICENSE file.
+
 
 COPYRIGHT
 =========
